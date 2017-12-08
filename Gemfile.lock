@@ -1,0 +1,42 @@
+GIT
+  remote: git://github.com/arempe93/gdax-ruby.git
+  revision: 403e3714b7e57e266e5d0b8795eba9a090046b61
+  specs:
+    gdax (0.0.0)
+      faraday (~> 0.10)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coinmarketcap (0.2.4)
+      httparty
+      nokogiri
+    dotenv (2.2.1)
+    faraday (0.13.1)
+      multipart-post (>= 1.2, < 3)
+    httparty (0.15.6)
+      multi_xml (>= 0.5.2)
+    mini_portile2 (2.3.0)
+    multi_xml (0.6.0)
+    multipart-post (2.0.0)
+    nokogiri (1.8.1)
+      mini_portile2 (~> 2.3.0)
+    prettyprint (0.0.1)
+      thor
+    thor (0.20.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  coinmarketcap
+  dotenv
+  gdax!
+  prettyprint
+  thor
+
+RUBY VERSION
+   ruby 2.4.2p198
+
+BUNDLED WITH
+   1.16.0
